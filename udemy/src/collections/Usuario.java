@@ -4,10 +4,16 @@ import java.util.Objects;
 
 public class Usuario {
 
-    String nome;
+    public String nome;
+    public double valor;
 
-    public Usuario(String nome) {
+    public Usuario (String nome){
         this.nome = nome;
+    }
+
+    public Usuario(String nome, double valor) {
+        this.nome = nome;
+        this.valor = valor;
     }
 
     @Override
